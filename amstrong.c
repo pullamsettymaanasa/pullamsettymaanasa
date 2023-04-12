@@ -6,7 +6,7 @@ int main() {
     originalNum = num;
 
     while (originalNum != 0) {
-       // remainder contains the last digit
+       
         remainder = originalNum % 10;
         
        result += remainder * remainder * remainder;
@@ -24,7 +24,7 @@ int main() {
   printf("After swapping, second number = %.2lf", second);
   return 0;
 }
-       // removing last digit from the orignal number
+       
        originalNum /= 10;
     }
 
